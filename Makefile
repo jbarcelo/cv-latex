@@ -8,7 +8,7 @@ pdf:
 	#dvips -o barcelo_letter.ps -Ppdf -G0 -t a4 barcelo_letter.dvi
 	ps2pdf -sPAPERSIZE=a4 -dEmbedAllFonts=true barcelo_resume.ps
 	#ps2pdf -sPAPERSIZE=a4 -dEmbedAllFonts=true barcelo_letter.ps
-	evince barcelo_resume.pdf
+	evince barcelo_resume.pdf&
 	#evince barcelo_letter.pdf
 					
 clean:
